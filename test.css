@@ -1,0 +1,91 @@
+.list li{
+  display: flex;
+  display: inline;
+  margin-left: 15px;
+}
+p{
+  width: 500px;
+  margin-left: 10px;
+
+}
+h1{
+  margin-left: 10px;
+}
+section{
+  display: flex;
+}
+
+.list li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  
+}
+.navigation{
+  display: flex;
+ 
+  
+}
+.list{
+  margin-top: 50px;
+}
+.logo{
+  width: 120px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.list li a:hover{
+  text-decoration: underline;
+}
+ol li {
+  display: flex;
+}
+ol {
+  display: flex;
+}
+ol li a {
+  
+    color: black;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+ol li+li:before {
+  padding: 10px;
+  color: rgb(8, 8, 14);
+  content: "/\00a0";
+}
+ol li a:hover {
+  color: #06080a;
+  text-decoration: underline;
+}
+
+image{
+    margin-left: 100px;
+}
+.art p{
+    margin: 0px;
+    margin-top: 5px;
+}
+.art {
+  border: 2px solid;
+  border-color: rgb(216, 216, 216);
+  width: 21%;
+  margin: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#p1 {
+  color: rgb(187, 186, 186);
+}
+#p3 {
+  color: rgb(52, 185, 52);
+}
+span {
+  text-decoration: underline;
+  font-weight: bold;
+}
